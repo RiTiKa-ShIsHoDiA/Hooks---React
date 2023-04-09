@@ -8,7 +8,7 @@ class ClassCounterTwo extends Component {
         }
     }
     handleClick(){
-        for (let index = 0; index < 5; index++) {
+        for (let index = 0; index < 6; index++) {
             this.setState((prev)=>{
                 return {count:prev.count + 1};
             });
